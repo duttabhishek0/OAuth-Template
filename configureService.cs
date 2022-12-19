@@ -1,3 +1,6 @@
+namespace OAuthService{
+	class OAuth{
+
 public void ConfigureServices(IServiceCollection services)
 {
 	services.AddControllers();
@@ -104,4 +107,6 @@ public void ConfigureServices(IServiceCollection services)
 			};
 		});
 
+}
+}
 }
